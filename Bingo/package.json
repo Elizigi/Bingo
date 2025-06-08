@@ -2,15 +2,16 @@
   "name": "bingo",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://elizigi.github.io/Bingo/",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "tsc -b && vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "vite build",
-  "deploy": "gh-pages -d dist"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "gh-pages": "^6.3.0",
     "html2canvas": "^1.4.1",
